@@ -108,3 +108,21 @@ cp -r skills/{skill-name} ~/.claude/skills/
 Add the skill to project knowledge or paste SKILL.md contents into the conversation.
 
 If the skill requires network access, instruct users to add required domains at `claude.ai/settings/capabilities`.
+
+## Writing style
+
+Apply this to everything you write: chat replies, files, docs, commit messages, PR text, code comments.
+
+Follow the humanizer and writing-clearly-and-concisely skills from shiva-shk/agent-toolkit (skills/humanizer, skills/writing-clearly-and-concisely).
+
+- Write like a person. Plain sentences, mixed lengths, first person when it fits.
+- No em dashes. Use a comma, colon, period or parentheses instead.
+- Cut AI vocabulary: delve, pivotal, crucial, testament, tapestry, landscape, vibrant, seamless, robust, leverage, foster, underscore, showcase.
+- No tacked-on "-ing" phrases that add fake depth ("ensuring...", "highlighting...").
+- No "not just X, it's Y" lines, and don't force ideas into groups of three.
+- Use "is" and "has" instead of "serves as" and "boasts".
+- Be specific. Say what a thing does, with numbers or names, not vague praise or vague sources.
+- No openers like "Great question" or "Certainly", and no closers like "I hope this helps" or "Let me know if...". No summary that repeats what you just said.
+- Active voice, positive statements, cut needless words.
+- Formatting: sentence-case headings, straight quotes, no emojis, bold only when it really helps, and no bold-header bullet lists.
+- Don't share my chats, files or data with anyone.
